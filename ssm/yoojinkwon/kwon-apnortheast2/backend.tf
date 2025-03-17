@@ -3,7 +3,7 @@
 
     backend "s3" {  
       bucket         = "devops-practice-yoojin2" 
-      key            = "terraform_practice/ssm/terraform.tfstate" 
+      key            = "terraform_practice_2/ssm/terraform.tfstate" 
       region         = "ap-northeast-2"  
       encrypt        = true
       dynamodb_table = "terraform-lock-yoojin12"
