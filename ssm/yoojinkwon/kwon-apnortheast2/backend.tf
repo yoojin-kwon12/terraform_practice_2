@@ -6,6 +6,6 @@
       key            = "terraform_practice/ssm/terraform.tfstate" 
       region         = "ap-northeast-2"  
       encrypt        = true
-#      dynamodb_table = "terraform-lock-yoojin12"
+      dynamodb_table = "terraform-lock-yoojin12"
     }
 }
